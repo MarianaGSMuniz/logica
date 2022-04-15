@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+    var mariaPeso = 48;
+    var mariaAltura = 1.45;
+    var imcMaria = mariaPeso / (mariaAltura*mariaAltura);
+    mostra("O imc da Maria " + imcMaria);
+
+    var leandroPeso = 63.850;
+    var alturaLeandro = 1.69;
+    var imcLeandro = leandroPeso / (alturaLeandro* alturaLeandro);
+    mostra ("O imc do Leandro é" + imcLeandro);
+   
+    var marianaPeso = 73;
+    var marianaAltura = 1.64;
+    var imcMariana = marianaPeso / (mariaAltura*mariaAltura);
+    mostra("O imc da Mariana " + imcMariana);
+   
+</script>
